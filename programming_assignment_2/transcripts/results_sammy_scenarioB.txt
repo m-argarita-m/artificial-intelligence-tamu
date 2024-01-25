@@ -1,0 +1,366 @@
+Command:                           python3 DPLL.py sammy.cnf O1W O2Y O3W L1W L2B L3B -t transcripts/results_sammy_scenarioB.txt
+Script Name:                       DPLL.py
+CNF File Name:                     sammy.cnf
+Transcript File Path:              transcripts/results_sammy_scenarioB.txt
+We will use Unit Clause Heuristic? False
+Given Statements for KB:
+
+.............................................................................................................................
+1.	O1W
+2.	O2Y
+3.	O3W
+4.	L1W
+5.	L2B
+6.	L3B
+.............................................................................................................................
+
+**********************************************************************************************************************************************************************************************************************************************************
+model is initially:
+{'C1B': 0, 'C1Y': 0, 'O1Y': 0, 'C1W': 0, 'O1W': 0, 'C2B': 0, 'C2Y': 0, 'O2Y': 0, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 0, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 0, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 0, 'L3B': 0}
+
+after considering given statements, model is:
+{'C1B': 0, 'C1Y': 0, 'O1Y': 0, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 1	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C1B = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': 0, 'O1Y': 0, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 2	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C1Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': 1, 'O1Y': 0, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 3	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C1Y = True
+
+Trying C1Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': 0, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 4	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying O1Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': 1, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 5	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from O1Y = True
+
+Trying O1Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': 0, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 6	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C1W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': 1, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 7	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C1W = True
+
+Trying C1W = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': 0, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 8	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C2B = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': 1, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 9	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C2B = True
+
+Trying C2B = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 0, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 10	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C2Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': 0, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 11	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C2W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': 1, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 12	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C2W = True
+
+Trying C2W = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': 0, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 13	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying O2W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': 1, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 14	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from O2W = True
+
+Trying O2W = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': 0, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 15	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C3B = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': 1, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 16	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C3B = True
+
+Trying C3B = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': 0, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 17	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C3Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': 1, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 18	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from C3Y = True
+
+Trying C3Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': 0, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 19	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying O3Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': 1, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 20	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from O3Y = True
+
+Trying O3Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 0, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 21	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying C3W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': 0, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 22	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L1Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': 1, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 23	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L1Y = True
+
+Trying L1Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': 0, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 24	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L2Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': 1, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 25	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L2Y = True
+
+Trying L2Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': 0, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 26	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L3Y = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': 1, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 27	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L3Y = True
+
+Trying L3Y = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': 0, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 28	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L2W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': 1, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 29	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L2W = True
+
+Trying L2W = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': 0, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 30	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L3W = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': 1, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 31	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L3W = True
+
+Trying L3W = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': -1, 'L1B': 0, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 32	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying L1B = True
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': -1, 'L1B': 1, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 33	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from L1B = True
+
+Trying L1B = False
+
+Model now looks like:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': -1, 'L1B': -1, 'L2B': 1, 'L3B': 1}
+
+	-	Attempt 34	-	
+All Clauses Satisfied returned True for this model - All Clauses Satisfied :)
+
+Is satisfiable: True
+
+
+Final model:
+{'C1B': 1, 'C1Y': -1, 'O1Y': -1, 'C1W': -1, 'O1W': 1, 'C2B': -1, 'C2Y': 1, 'O2Y': 1, 'C2W': -1, 'O2W': -1, 'C3B': -1, 'C3Y': -1, 'O3Y': -1, 'C3W': 1, 'O3W': 1, 'L1Y': -1, 'L2Y': -1, 'L3Y': -1, 'L1W': 1, 'L2W': -1, 'L3W': -1, 'L1B': -1, 'L2B': 1, 'L3B': 1}
+
+Total DPLL Calls: 34
+Used UCH? False
+
+  -  Just the SATISFIED / TRUE Propositions  -  
+
+C1B O1W C2Y O2Y C3W O3W L1W L2B L3B 
+________________________________________________________________________________

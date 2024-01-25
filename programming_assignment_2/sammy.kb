@@ -1,0 +1,45 @@
+# Observation Implications
+(implies O1Y (xor C1Y C1B))
+(implies O1W (xor C1W C1B))
+(implies O2Y (xor C2Y C2B))
+(implies O2W (xor C2W C2B))
+(implies O3Y (xor C3Y C3B))
+(implies O3W (xor C3W C3B))
+
+# Incorrect Labels Implications
+(implies L1Y (not C1Y))
+(implies L2Y (not C2Y))
+(implies L3Y (not C3Y))
+(implies L1W (not C1W))
+(implies L2W (not C2W))
+(implies L3W (not C3W))
+(implies L1B (not C1B))
+(implies L2B (not C2B))
+(implies L3B (not C3B))
+
+# Exactly One Box of Each Color Implications
+# There exists exactly 1 box of each color-content
+(or (and C1Y (not C1W) (not C1B)) (and C1W (not C1Y) (not C1B)) (and C1B (not C1W) (not C1Y)))
+(or (and C2Y (not C2W) (not C2B)) (and C2W (not C2Y) (not C2B)) (and C2B (not C2W) (not C2Y)))
+(or (and C3Y (not C3W) (not C3B)) (and C3W (not C3Y) (not C3B)) (and C3B (not C3W) (not C3Y)))
+
+# There exists no more than 1 box of the same contents
+(implies C1Y (and (not C2Y) (not C3Y)))
+(implies C1W (and (not C2W) (not C3W)))
+(implies C1B (and (not C2B) (not C3B)))
+(implies C2Y (and (not C1Y) (not C3Y)))
+(implies C2W (and (not C1W) (not C3W)))
+(implies C2B (and (not C1B) (not C3B)))
+(implies C3Y (and (not C2Y) (not C1Y)))
+(implies C3W (and (not C2W) (not C1W)))
+(implies C3B (and (not C2B) (not C1B)))
+
+# Only one observed ball per box
+(xor (and O1Y (not O1W)) (and O1W (not O1Y)))
+(xor (and O2Y (not O2W)) (and O2W (not O2Y)))
+(xor (and O3Y (not O3W)) (and O3W (not O3Y)))
+
+# Only one label per box
+(or (and L1Y (not L1W) (not L1B)) (and L1W (not L1Y) (not L1B)) (and L1B (not L1W) (not L1Y)))
+(or (and L2Y (not L2W) (not L2B)) (and L2W (not L2Y) (not L2B)) (and L2B (not L2W) (not L2Y)))
+(or (and L3Y (not L3W) (not L3B)) (and L3W (not L3Y) (not L3B)) (and L3B (not L3W) (not L3Y)))

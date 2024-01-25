@@ -1,0 +1,1208 @@
+Command:                           python3 DPLL.py 6queens.cnf -t transcripts/6queens.txt
+Script Name:                       DPLL.py
+CNF File Name:                     6queens.cnf
+Transcript File Path:              transcripts/6queens.txt
+We will use Unit Clause Heuristic? False
+Given Statements for KB:
+
+.............................................................................................................................
+No Given Statements
+.............................................................................................................................
+
+**********************************************************************************************************************************************************************************************************************************************************
+model is initially:
+{'Q12': 0, 'Q11': 0, 'Q13': 0, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+after considering given statements, model is:
+{'Q12': 0, 'Q11': 0, 'Q13': 0, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 1	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q12 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': 0, 'Q13': 0, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 2	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q11 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': 1, 'Q13': 0, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 3	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q11 = True
+
+Trying Q11 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': 0, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 4	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q13 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': 1, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 5	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q13 = True
+
+Trying Q13 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': 0, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 6	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q14 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': 1, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 7	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q14 = True
+
+Trying Q14 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': 0, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 8	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q15 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': 1, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 9	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q15 = True
+
+Trying Q15 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 10	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q16 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': 1, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 11	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q16 = True
+
+Trying Q16 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 12	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q22 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': 1, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 13	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q22 = True
+
+Trying Q22 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': 0, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 14	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q21 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': 1, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 15	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q21 = True
+
+Trying Q21 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': 0, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 16	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q23 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': 1, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 17	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q23 = True
+
+Trying Q23 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 0, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 18	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q24 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': 0, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 19	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q25 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': 1, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 20	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q25 = True
+
+Trying Q25 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 21	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q26 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': 1, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 22	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q26 = True
+
+Trying Q26 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': 0, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 23	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q32 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': 1, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 24	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q32 = True
+
+Trying Q32 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 0, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 25	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q31 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 26	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q33 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': 1, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 27	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q33 = True
+
+Trying Q33 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 28	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q34 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': 1, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 29	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q34 = True
+
+Trying Q34 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 30	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q35 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': 1, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 31	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q35 = True
+
+Trying Q35 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 32	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q36 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 33	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q36 = True
+
+Trying Q36 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 34	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q42 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': 1, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 35	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q42 = True
+
+Trying Q42 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 36	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q41 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': 1, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 37	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q41 = True
+
+Trying Q41 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 38	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q43 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 39	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q44 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': 1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 40	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q44 = True
+
+Trying Q44 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 41	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q45 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': 1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 42	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q45 = True
+
+Trying Q45 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 43	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q46 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': 1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 44	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q46 = True
+
+Trying Q46 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 45	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q52 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': 1, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 46	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q52 = True
+
+Trying Q52 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 47	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q51 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': 1, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 48	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q51 = True
+
+Trying Q51 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 49	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q53 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 50	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q53 = True
+
+Trying Q53 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 51	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q54 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': 1, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 52	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q54 = True
+
+Trying Q54 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 53	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q55 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 54	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q56 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': 1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 55	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q56 = True
+
+Trying Q56 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 56	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q62 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': 1, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 57	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q62 = True
+
+Trying Q62 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 58	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q61 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': 1, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 59	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q61 = True
+
+Trying Q61 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 60	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q63 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': 1, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 61	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q63 = True
+
+Trying Q63 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 62	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q64 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': 1, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 63	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q64 = True
+
+Trying Q64 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 64	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q65 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': 0}
+
+	-	Attempt 65	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q65 = True
+
+Trying Q65 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': -1, 'Q66': 0}
+
+	-	Attempt 66	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q66 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': -1, 'Q66': 1}
+
+	-	Attempt 67	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q66 = True
+
+Trying Q66 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': 1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': -1, 'Q66': -1}
+
+	-	Attempt 68	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q55 = True
+
+Trying Q55 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': -1, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 69	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q56 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': -1, 'Q56': 1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 70	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q56 = True
+
+Trying Q56 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': 1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': -1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 71	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q43 = True
+
+Trying Q43 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 72	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q44 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': 1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 73	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q44 = True
+
+Trying Q44 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': -1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 74	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q45 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': -1, 'Q45': 1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 75	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q45 = True
+
+Trying Q45 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 76	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q46 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': 1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 77	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q46 = True
+
+Trying Q46 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': 1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': -1, 'Q42': -1, 'Q41': -1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 78	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q31 = True
+
+Trying Q31 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': 0, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 79	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q33 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': 1, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 80	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q33 = True
+
+Trying Q33 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': 0, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 81	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q34 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': 1, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 82	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q34 = True
+
+Trying Q34 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': 0, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 83	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q35 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': 1, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 84	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q35 = True
+
+Trying Q35 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 0, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 85	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q36 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': 0, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 86	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q42 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': 1, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 87	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q42 = True
+
+Trying Q42 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 0, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 88	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q41 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': 0, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 89	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q43 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': 1, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 90	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q43 = True
+
+Trying Q43 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': 0, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 91	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q44 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': 1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 92	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q44 = True
+
+Trying Q44 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': 0, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 93	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q45 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': 1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 94	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q45 = True
+
+Trying Q45 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': 0, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 95	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q46 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': 1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 96	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q46 = True
+
+Trying Q46 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': 0, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 97	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q52 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': 1, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 98	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q52 = True
+
+Trying Q52 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': 0, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 99	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q51 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': 1, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 100	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q51 = True
+
+Trying Q51 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 0, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 101	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q53 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': 0, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 102	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q54 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': 1, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 103	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q54 = True
+
+Trying Q54 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': 0, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 104	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q55 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': 1, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 105	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q55 = True
+
+Trying Q55 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': 0, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 106	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q56 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': 1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 107	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q56 = True
+
+Trying Q56 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': 0, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 108	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q62 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': 1, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 109	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q62 = True
+
+Trying Q62 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': 0, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 110	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q61 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': 1, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 111	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q61 = True
+
+Trying Q61 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': 0, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 112	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q63 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': 1, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 113	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q63 = True
+
+Trying Q63 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': 0, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 114	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q64 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': 1, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 115	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q64 = True
+
+Trying Q64 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 0, 'Q66': 0}
+
+	-	Attempt 116	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q65 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': 0}
+
+	-	Attempt 117	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q66 = True
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': 1}
+
+	-	Attempt 118	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q66 = True
+
+Trying Q66 = False
+
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': -1}
+
+	-	Attempt 119	-	
+All Clauses Satisfied returned True for this model - All Clauses Satisfied :)
+
+Is satisfiable: True
+
+
+Final model:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q14': -1, 'Q15': -1, 'Q16': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q24': 1, 'Q25': -1, 'Q26': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1, 'Q34': -1, 'Q35': -1, 'Q36': 1, 'Q42': -1, 'Q41': 1, 'Q43': -1, 'Q44': -1, 'Q45': -1, 'Q46': -1, 'Q52': -1, 'Q51': -1, 'Q53': 1, 'Q54': -1, 'Q55': -1, 'Q56': -1, 'Q62': -1, 'Q61': -1, 'Q63': -1, 'Q64': -1, 'Q65': 1, 'Q66': -1}
+
+Total DPLL Calls: 119
+Used UCH? False
+
+  -  Just the SATISFIED / TRUE Propositions  -  
+
+Q12 Q24 Q36 Q41 Q53 Q65 
+________________________________________________________________________________

@@ -1,0 +1,385 @@
+Anis-MacBook-Pro-2:gprolog-1.5.0 animargam$ gprolog
+GNU Prolog 1.5.0 (64 bits)
+Compiled Nov 28 2023, 21:44:07 with gcc
+Copyright (C) 1999-2023 Daniel Diaz
+
+| ?- consult('solutions.pl').
+compiling /Users/animargam/Downloads/gprolog-1.5.0/solutions.pl for byte code...
+/Users/animargam/Downloads/gprolog-1.5.0/solutions.pl compiled, 140 lines read - 17391 bytes written, 7 ms
+
+(3 ms) yes
+| ?- brother(rod,X).
+
+X = tod ? ;
+
+no
+| ?- sister(marge,X).
+
+X = patty ? ;
+
+X = selma ? ;
+
+no
+| ?- aunt(X,patty).
+
+X = bart ? ;
+
+X = lisa ? ;
+
+X = maggie ? ;
+
+(1 ms) no
+| ?- uncle(bart,X).
+
+X = herb ? ;
+
+no
+| ?- grandfather(maggie,X).
+
+X = abraham ? ;
+
+no
+| ?- granddaughter(jackie,D).
+
+D = maggie ? ;
+
+D = lisa ? ;
+
+(1 ms) no
+| ?- ancestor(bart,X).
+
+X = homer ? ;
+
+X = marge ? ;
+
+X = abraham ? ;
+
+X = jackie ? ;
+
+(1 ms) no
+| ?- query2a(X).
+
+X = sam ? ;
+
+X = bill ? ;
+
+X = joan ? ;
+
+no
+| ?- query2b(X).
+
+X = lance ? ;
+
+no
+| ?- query2c(X).
+
+X = lisa ? ;
+
+X = charlie ? ;
+
+no
+| ?- canTeach(X,Y).
+
+X = bill
+Y = organic ? ;
+
+X = bill
+Y = inorganic ? ;
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+no
+| ?- canTeach2(X,Y).
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+(1 ms) no
+| ?- canTeach3(X,Y).
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+X = chuck
+Y = dynamics ? ;
+
+X = chuck
+Y = electromagnetism ? ;
+
+X = chuck
+Y = nuclear ? ;
+
+(1 ms) no
+| ?- octal_code(A,B,C).
+000
+
+A = 0
+B = 0
+C = 0 ? ;
+001
+
+A = 0
+B = 0
+C = 1 ? ;
+010
+
+A = 0
+B = 1
+C = 0 ? ;
+011
+
+A = 0
+B = 1
+C = 1 ? ;
+100
+
+A = 1
+B = 0
+C = 0 ? ;
+101
+
+A = 1
+B = 0
+C = 1 ? ;
+110
+
+A = 1
+B = 1
+C = 0 ? ;
+111
+
+A = 1
+B = 1
+C = 1
+
+(1 ms) yes
+
+%------------------------------------------------------------------------------------------
+QUESTION 4 EXPLANATION:
+
+When the query octal_code(A, B, C) is invoked, prolog starts with the first goal bit(A) - at this point, the stack of goals is bit(A), bit(B), bit(C).
+
+Attempt 1 - bit(0): prolog first tries to satisfy bit(A) with bit(0). This succeeds because bit(0) is a fact in the KB. The values are now A = 0, and the remaining goals are bit(B), bit(C).
+
+Goal 2 - bit(B): prolog then tries to satisfy bit(B). It first uses bit(0). Now B = 0 and the remaining goal is bit(C).
+
+Goal 3 - bit(C): prolog first uses bit(0) for bit(C). Now C = 0, and all goals are satisfied, resulting in the solution 000.
+
+Backtracking - bit(C): when we type ; after the first solution, prolog backtracks to find alternative solutions for bit(C). It tries bit(1), leading to C = 1, with the solution 001 and all goals satisfied.
+
+Backtracking 2 - bit(B): when we type ; again, we have exhausted options for C so prolog backtracks to bit(B). It tries bit(1) for B, leading to B = 1, and again starts with bit(0) for C, resulting in the solutions 010 and 011.
+
+Backtracking 3 - bit(A): the process continues - backtracking and trying different combinations for A, B, and C in sequence. Once B and C are exhausted for A = 0, prolog backtracks to bit(A) and tries bit(1) for A, leading to A = 1 - then the process repeats for B and C, generating the remaining solutions 100, 101, 110, and 111.
+%------------------------------------------------------------------------------------------
+
+| ?- mapcolor(WA,NT,SA,Q,NSW,V,T).
+
+NSW = green
+NT = green
+Q = red
+SA = blue
+T = red
+V = red
+WA = red ? ;
+
+NSW = green
+NT = green
+Q = red
+SA = blue
+T = green
+V = red
+WA = red ? ;
+
+NSW = green
+NT = green
+Q = red
+SA = blue
+T = blue
+V = red
+WA = red ? ;
+
+NSW = blue
+NT = blue
+Q = red
+SA = green
+T = red
+V = red
+WA = red ? ;
+
+NSW = blue
+NT = blue
+Q = red
+SA = green
+T = green
+V = red
+WA = red ? ;
+
+NSW = blue
+NT = blue
+Q = red
+SA = green
+T = blue
+V = red
+WA = red ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = red
+V = green
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = green
+V = green
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = blue
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = red
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = green
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = blue
+V = green
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = blue
+SA = green
+T = red
+V = blue
+WA = blue ? ;
+
+NSW = red
+NT = red
+Q = blue
+SA = green
+T = green
+V = blue
+WA = blue ? ;
+
+NSW = red
+NT = red
+Q = blue
+SA = green
+T = blue
+V = blue
+WA = blue ? ;
+
+NSW = green
+NT = green
+Q = blue
+SA = red
+T = red
+V = blue
+WA = blue ? ;
+
+NSW = green
+NT = green
+Q = blue
+SA = red
+T = green
+V = blue
+WA = blue ? ;
+
+NSW = green
+NT = green
+Q = blue
+SA = red
+T = blue
+V = blue
+WA = blue ? ;
+
+(9 ms) no
+| ?- WA=green, mapcolor(WA,NT,SA,Q,NSW,V,T).
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = red
+V = green
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = green
+V = green
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = blue
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = red
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = green
+V = green
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = blue
+V = green
+WA = green ? ;
+
+(3 ms) no
+| ?- WA=red, Q=green, mapcolor(WA,NT,SA,Q,NSW,V,T).
+
+(1 ms) no

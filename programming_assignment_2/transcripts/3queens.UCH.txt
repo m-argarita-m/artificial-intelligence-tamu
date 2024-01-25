@@ -1,0 +1,222 @@
+Command:                           python3 DPLL.py 3queens.cnf +UCH -t transcripts/3queens.UCH.txt
+Script Name:                       DPLL.py
+CNF File Name:                     3queens.cnf
+Transcript File Path:              transcripts/3queens.UCH.txt
+We will use Unit Clause Heuristic? True
+Given Statements for KB:
+
+.............................................................................................................................
+No Given Statements
+.............................................................................................................................
+
+**********************************************************************************************************************************************************************************************************************************************************
+model is initially:
+{'Q12': 0, 'Q11': 0, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+after considering given statements, model is:
+{'Q12': 0, 'Q11': 0, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 1	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Trying Q12 = True
+Model now looks like:
+{'Q12': 1, 'Q11': 0, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 2	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q11', -1)
+Assigning Q11 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 3	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q13', -1)
+Assigning Q13 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 4	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q22', -1)
+Assigning Q22 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q22': -1, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 5	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q32', -1)
+Assigning Q32 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q22': -1, 'Q21': 0, 'Q23': 0, 'Q32': -1, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 6	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q21', -1)
+Assigning Q21 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': 0, 'Q32': -1, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 7	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q23', -1)
+Assigning Q23 = -1
+Model now looks like:
+{'Q12': 1, 'Q11': -1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': -1, 'Q32': -1, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 8	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+Backtracking from Q12 = True
+Trying Q12 = False
+Model now looks like:
+{'Q12': -1, 'Q11': 0, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 9	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Trying Q11 = True
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 10	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q13', -1)
+Assigning Q13 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 11	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q21', -1)
+Assigning Q21 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': 0, 'Q21': -1, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 12	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q31', -1)
+Assigning Q31 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': 0, 'Q21': -1, 'Q23': 0, 'Q32': 0, 'Q31': -1, 'Q33': 0}
+
+	-	Attempt 13	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q22', -1)
+Assigning Q22 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': 0, 'Q32': 0, 'Q31': -1, 'Q33': 0}
+
+	-	Attempt 14	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q33', -1)
+Assigning Q33 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': 0, 'Q32': 0, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 15	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q23', 1)
+Assigning Q23 = 1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': 1, 'Q32': 0, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 16	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q32', -1)
+Assigning Q32 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': 1, 'Q13': -1, 'Q22': -1, 'Q21': -1, 'Q23': 1, 'Q32': -1, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 17	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+Backtracking from Q11 = True
+Trying Q11 = False
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 0, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 18	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q13', 1)
+Assigning Q13 = 1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': 0, 'Q21': 0, 'Q23': 0, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 19	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q23', -1)
+Assigning Q23 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': 0, 'Q21': 0, 'Q23': -1, 'Q32': 0, 'Q31': 0, 'Q33': 0}
+
+	-	Attempt 20	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q33', -1)
+Assigning Q33 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': 0, 'Q21': 0, 'Q23': -1, 'Q32': 0, 'Q31': 0, 'Q33': -1}
+
+	-	Attempt 21	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q22', -1)
+Assigning Q22 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': -1, 'Q21': 0, 'Q23': -1, 'Q32': 0, 'Q31': 0, 'Q33': -1}
+
+	-	Attempt 22	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q31', -1)
+Assigning Q31 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': -1, 'Q21': 0, 'Q23': -1, 'Q32': 0, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 23	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q21', 1)
+Assigning Q21 = 1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': -1, 'Q21': 1, 'Q23': -1, 'Q32': 0, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 24	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q32', -1)
+Assigning Q32 = -1
+Model now looks like:
+{'Q12': -1, 'Q11': -1, 'Q13': 1, 'Q22': -1, 'Q21': 1, 'Q23': -1, 'Q32': -1, 'Q31': -1, 'Q33': -1}
+
+	-	Attempt 25	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Is satisfiable: False
+
+
+Total DPLL Calls: 25
+Used UCH? True
+
+  -  MODEL WAS UNSATISFIABLE  -  
+
+
+________________________________________________________________________________

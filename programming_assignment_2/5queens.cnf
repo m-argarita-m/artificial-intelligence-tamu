@@ -1,0 +1,598 @@
+# # ~    ~    NO MORE THAN 1 QUEEN IN EACH COLUMN    ~    ~
+# (implies Q11 (and (not Q12) (not Q13) (not Q14) (not Q15)))
+
+-Q12 -Q11
+-Q13 -Q11
+-Q14 -Q11
+-Q15 -Q11
+
+# (implies Q12 (and (not Q11) (not Q13) (not Q14) (not Q15)))
+
+-Q11 -Q12
+-Q13 -Q12
+-Q14 -Q12
+-Q15 -Q12
+
+# (implies Q13 (and (not Q11) (not Q12) (not Q14) (not Q15)))
+
+-Q11 -Q13
+-Q12 -Q13
+-Q14 -Q13
+-Q15 -Q13
+
+# (implies Q14 (and (not Q11) (not Q12) (not Q13) (not Q15)))
+
+-Q11 -Q14
+-Q12 -Q14
+-Q13 -Q14
+-Q15 -Q14
+
+# (implies Q15 (and (not Q11) (not Q12) (not Q13) (not Q14)))
+
+-Q11 -Q15
+-Q12 -Q15
+-Q13 -Q15
+-Q14 -Q15
+
+# (implies Q21 (and (not Q22) (not Q23) (not Q24) (not Q25)))
+
+-Q22 -Q21
+-Q23 -Q21
+-Q24 -Q21
+-Q25 -Q21
+
+# (implies Q22 (and (not Q21) (not Q23) (not Q24) (not Q25)))
+
+-Q21 -Q22
+-Q23 -Q22
+-Q24 -Q22
+-Q25 -Q22
+
+# (implies Q23 (and (not Q21) (not Q22) (not Q24) (not Q25)))
+
+-Q21 -Q23
+-Q22 -Q23
+-Q24 -Q23
+-Q25 -Q23
+
+# (implies Q24 (and (not Q21) (not Q22) (not Q23) (not Q25)))
+
+-Q21 -Q24
+-Q22 -Q24
+-Q23 -Q24
+-Q25 -Q24
+
+# (implies Q25 (and (not Q21) (not Q22) (not Q23) (not Q24)))
+
+-Q21 -Q25
+-Q22 -Q25
+-Q23 -Q25
+-Q24 -Q25
+
+# (implies Q31 (and (not Q32) (not Q33) (not Q34) (not Q35)))
+
+-Q32 -Q31
+-Q33 -Q31
+-Q34 -Q31
+-Q35 -Q31
+
+# (implies Q32 (and (not Q31) (not Q33) (not Q34) (not Q35)))
+
+-Q31 -Q32
+-Q33 -Q32
+-Q34 -Q32
+-Q35 -Q32
+
+# (implies Q33 (and (not Q31) (not Q32) (not Q34) (not Q35)))
+
+-Q31 -Q33
+-Q32 -Q33
+-Q34 -Q33
+-Q35 -Q33
+
+# (implies Q34 (and (not Q31) (not Q32) (not Q33) (not Q35)))
+
+-Q31 -Q34
+-Q32 -Q34
+-Q33 -Q34
+-Q35 -Q34
+
+# (implies Q35 (and (not Q31) (not Q32) (not Q33) (not Q34)))
+
+-Q31 -Q35
+-Q32 -Q35
+-Q33 -Q35
+-Q34 -Q35
+
+# (implies Q41 (and (not Q42) (not Q43) (not Q44) (not Q45)))
+
+-Q42 -Q41
+-Q43 -Q41
+-Q44 -Q41
+-Q45 -Q41
+
+# (implies Q42 (and (not Q41) (not Q43) (not Q44) (not Q45)))
+
+-Q41 -Q42
+-Q43 -Q42
+-Q44 -Q42
+-Q45 -Q42
+
+# (implies Q43 (and (not Q41) (not Q42) (not Q44) (not Q45)))
+
+-Q41 -Q43
+-Q42 -Q43
+-Q44 -Q43
+-Q45 -Q43
+
+# (implies Q44 (and (not Q41) (not Q42) (not Q43) (not Q45)))
+
+-Q41 -Q44
+-Q42 -Q44
+-Q43 -Q44
+-Q45 -Q44
+
+# (implies Q45 (and (not Q41) (not Q42) (not Q43) (not Q44)))
+
+-Q41 -Q45
+-Q42 -Q45
+-Q43 -Q45
+-Q44 -Q45
+
+# (implies Q51 (and (not Q52) (not Q53) (not Q54) (not Q55)))
+
+-Q52 -Q51
+-Q53 -Q51
+-Q54 -Q51
+-Q55 -Q51
+
+# (implies Q52 (and (not Q51) (not Q53) (not Q54) (not Q55)))
+
+-Q51 -Q52
+-Q53 -Q52
+-Q54 -Q52
+-Q55 -Q52
+
+# (implies Q53 (and (not Q51) (not Q52) (not Q54) (not Q55)))
+
+-Q51 -Q53
+-Q52 -Q53
+-Q54 -Q53
+-Q55 -Q53
+
+# (implies Q54 (and (not Q51) (not Q52) (not Q53) (not Q55)))
+
+-Q51 -Q54
+-Q52 -Q54
+-Q53 -Q54
+-Q55 -Q54
+
+# (implies Q55 (and (not Q51) (not Q52) (not Q53) (not Q54)))
+
+-Q51 -Q55
+-Q52 -Q55
+-Q53 -Q55
+-Q54 -Q55
+
+# 
+# 
+# # ~    ~    NO MORE THAN 1 QUEEN IN EACH ROW    ~    ~
+# (implies Q11 (and (not Q21) (not Q31) (not Q41) (not Q51)))
+
+-Q21 -Q11
+-Q31 -Q11
+-Q41 -Q11
+-Q51 -Q11
+
+# (implies Q21 (and (not Q11) (not Q31) (not Q41) (not Q51)))
+
+-Q11 -Q21
+-Q31 -Q21
+-Q41 -Q21
+-Q51 -Q21
+
+# (implies Q31 (and (not Q11) (not Q21) (not Q41) (not Q51)))
+
+-Q11 -Q31
+-Q21 -Q31
+-Q41 -Q31
+-Q51 -Q31
+
+# (implies Q41 (and (not Q11) (not Q21) (not Q31) (not Q51)))
+
+-Q11 -Q41
+-Q21 -Q41
+-Q31 -Q41
+-Q51 -Q41
+
+# (implies Q51 (and (not Q11) (not Q21) (not Q31) (not Q41)))
+
+-Q11 -Q51
+-Q21 -Q51
+-Q31 -Q51
+-Q41 -Q51
+
+# (implies Q12 (and (not Q22) (not Q32) (not Q42) (not Q52)))
+
+-Q22 -Q12
+-Q32 -Q12
+-Q42 -Q12
+-Q52 -Q12
+
+# (implies Q22 (and (not Q12) (not Q32) (not Q42) (not Q52)))
+
+-Q12 -Q22
+-Q32 -Q22
+-Q42 -Q22
+-Q52 -Q22
+
+# (implies Q32 (and (not Q12) (not Q22) (not Q42) (not Q52)))
+
+-Q12 -Q32
+-Q22 -Q32
+-Q42 -Q32
+-Q52 -Q32
+
+# (implies Q42 (and (not Q12) (not Q22) (not Q32) (not Q52)))
+
+-Q12 -Q42
+-Q22 -Q42
+-Q32 -Q42
+-Q52 -Q42
+
+# (implies Q52 (and (not Q12) (not Q22) (not Q32) (not Q42)))
+
+-Q12 -Q52
+-Q22 -Q52
+-Q32 -Q52
+-Q42 -Q52
+
+# (implies Q13 (and (not Q23) (not Q33) (not Q43) (not Q53)))
+
+-Q23 -Q13
+-Q33 -Q13
+-Q43 -Q13
+-Q53 -Q13
+
+# (implies Q23 (and (not Q13) (not Q33) (not Q43) (not Q53)))
+
+-Q13 -Q23
+-Q33 -Q23
+-Q43 -Q23
+-Q53 -Q23
+
+# (implies Q33 (and (not Q13) (not Q23) (not Q43) (not Q53)))
+
+-Q13 -Q33
+-Q23 -Q33
+-Q43 -Q33
+-Q53 -Q33
+
+# (implies Q43 (and (not Q13) (not Q23) (not Q33) (not Q53)))
+
+-Q13 -Q43
+-Q23 -Q43
+-Q33 -Q43
+-Q53 -Q43
+
+# (implies Q53 (and (not Q13) (not Q23) (not Q33) (not Q43)))
+
+-Q13 -Q53
+-Q23 -Q53
+-Q33 -Q53
+-Q43 -Q53
+
+# (implies Q14 (and (not Q24) (not Q34) (not Q44) (not Q54)))
+
+-Q24 -Q14
+-Q34 -Q14
+-Q44 -Q14
+-Q54 -Q14
+
+# (implies Q24 (and (not Q14) (not Q34) (not Q44) (not Q54)))
+
+-Q14 -Q24
+-Q34 -Q24
+-Q44 -Q24
+-Q54 -Q24
+
+# (implies Q34 (and (not Q14) (not Q24) (not Q44) (not Q54)))
+
+-Q14 -Q34
+-Q24 -Q34
+-Q44 -Q34
+-Q54 -Q34
+
+# (implies Q44 (and (not Q14) (not Q24) (not Q34) (not Q54)))
+
+-Q14 -Q44
+-Q24 -Q44
+-Q34 -Q44
+-Q54 -Q44
+
+# (implies Q54 (and (not Q14) (not Q24) (not Q34) (not Q44)))
+
+-Q14 -Q54
+-Q24 -Q54
+-Q34 -Q54
+-Q44 -Q54
+
+# (implies Q15 (and (not Q25) (not Q35) (not Q45) (not Q55)))
+
+-Q25 -Q15
+-Q35 -Q15
+-Q45 -Q15
+-Q55 -Q15
+
+# (implies Q25 (and (not Q15) (not Q35) (not Q45) (not Q55)))
+
+-Q15 -Q25
+-Q35 -Q25
+-Q45 -Q25
+-Q55 -Q25
+
+# (implies Q35 (and (not Q15) (not Q25) (not Q45) (not Q55)))
+
+-Q15 -Q35
+-Q25 -Q35
+-Q45 -Q35
+-Q55 -Q35
+
+# (implies Q45 (and (not Q15) (not Q25) (not Q35) (not Q55)))
+
+-Q15 -Q45
+-Q25 -Q45
+-Q35 -Q45
+-Q55 -Q45
+
+# (implies Q55 (and (not Q15) (not Q25) (not Q35) (not Q45)))
+
+-Q15 -Q55
+-Q25 -Q55
+-Q35 -Q55
+-Q45 -Q55
+
+# 
+# 
+# # ~    ~    NO QUEENS IN SAME DIAGONAL    ~    ~
+# (implies Q11 (and (not Q22) (not Q33) (not Q44) (not Q55)))
+
+-Q22 -Q11
+-Q33 -Q11
+-Q44 -Q11
+-Q55 -Q11
+
+# (implies Q12 (and (not Q21) (not Q23) (not Q34) (not Q45)))
+
+-Q21 -Q12
+-Q23 -Q12
+-Q34 -Q12
+-Q45 -Q12
+
+# (implies Q13 (and (not Q22) (not Q24) (not Q31) (not Q35)))
+
+-Q22 -Q13
+-Q24 -Q13
+-Q31 -Q13
+-Q35 -Q13
+
+# (implies Q14 (and (not Q23) (not Q25) (not Q32) (not Q41)))
+
+-Q23 -Q14
+-Q25 -Q14
+-Q32 -Q14
+-Q41 -Q14
+
+# (implies Q15 (and (not Q24) (not Q33) (not Q42) (not Q51)))
+
+-Q24 -Q15
+-Q33 -Q15
+-Q42 -Q15
+-Q51 -Q15
+
+# (implies Q21 (and (not Q12) (not Q32) (not Q43) (not Q54)))
+
+-Q12 -Q21
+-Q32 -Q21
+-Q43 -Q21
+-Q54 -Q21
+
+# (implies Q22 (and (not Q11) (not Q13) (not Q31) (not Q33) (not Q44) (not Q55)))
+
+-Q11 -Q22
+-Q13 -Q22
+-Q31 -Q22
+-Q33 -Q22
+-Q44 -Q22
+-Q55 -Q22
+
+# (implies Q23 (and (not Q12) (not Q14) (not Q32) (not Q34) (not Q41) (not Q45)))
+
+-Q12 -Q23
+-Q14 -Q23
+-Q32 -Q23
+-Q34 -Q23
+-Q41 -Q23
+-Q45 -Q23
+
+# (implies Q24 (and (not Q13) (not Q15) (not Q33) (not Q35) (not Q42) (not Q51)))
+
+-Q13 -Q24
+-Q15 -Q24
+-Q33 -Q24
+-Q35 -Q24
+-Q42 -Q24
+-Q51 -Q24
+
+# (implies Q25 (and (not Q14) (not Q34) (not Q43) (not Q52)))
+
+-Q14 -Q25
+-Q34 -Q25
+-Q43 -Q25
+-Q52 -Q25
+
+# (implies Q31 (and (not Q13) (not Q22) (not Q42) (not Q53)))
+
+-Q13 -Q31
+-Q22 -Q31
+-Q42 -Q31
+-Q53 -Q31
+
+# (implies Q32 (and (not Q14) (not Q21) (not Q23) (not Q41) (not Q43) (not Q54)))
+
+-Q14 -Q32
+-Q21 -Q32
+-Q23 -Q32
+-Q41 -Q32
+-Q43 -Q32
+-Q54 -Q32
+
+# (implies Q33 (and (not Q11) (not Q15) (not Q22) (not Q24) (not Q42) (not Q44) (not Q51) (not Q55)))
+
+-Q11 -Q33
+-Q15 -Q33
+-Q22 -Q33
+-Q24 -Q33
+-Q42 -Q33
+-Q44 -Q33
+-Q51 -Q33
+-Q55 -Q33
+
+# (implies Q34 (and (not Q12) (not Q23) (not Q25) (not Q43) (not Q45) (not Q52)))
+
+-Q12 -Q34
+-Q23 -Q34
+-Q25 -Q34
+-Q43 -Q34
+-Q45 -Q34
+-Q52 -Q34
+
+# (implies Q35 (and (not Q13) (not Q24) (not Q44) (not Q53)))
+
+-Q13 -Q35
+-Q24 -Q35
+-Q44 -Q35
+-Q53 -Q35
+
+# (implies Q41 (and (not Q14) (not Q23) (not Q32) (not Q52)))
+
+-Q14 -Q41
+-Q23 -Q41
+-Q32 -Q41
+-Q52 -Q41
+
+# (implies Q42 (and (not Q15) (not Q24) (not Q31) (not Q33) (not Q51) (not Q53)))
+
+-Q15 -Q42
+-Q24 -Q42
+-Q31 -Q42
+-Q33 -Q42
+-Q51 -Q42
+-Q53 -Q42
+
+# (implies Q43 (and (not Q21) (not Q25) (not Q32) (not Q34) (not Q52) (not Q54)))
+
+-Q21 -Q43
+-Q25 -Q43
+-Q32 -Q43
+-Q34 -Q43
+-Q52 -Q43
+-Q54 -Q43
+
+# (implies Q44 (and (not Q11) (not Q22) (not Q33) (not Q35) (not Q53) (not Q55)))
+
+-Q11 -Q44
+-Q22 -Q44
+-Q33 -Q44
+-Q35 -Q44
+-Q53 -Q44
+-Q55 -Q44
+
+# (implies Q45 (and (not Q12) (not Q23) (not Q34) (not Q54)))
+
+-Q12 -Q45
+-Q23 -Q45
+-Q34 -Q45
+-Q54 -Q45
+
+# (implies Q51 (and (not Q15) (not Q24) (not Q33) (not Q42)))
+
+-Q15 -Q51
+-Q24 -Q51
+-Q33 -Q51
+-Q42 -Q51
+
+# (implies Q52 (and (not Q25) (not Q34) (not Q41) (not Q43)))
+
+-Q25 -Q52
+-Q34 -Q52
+-Q41 -Q52
+-Q43 -Q52
+
+# (implies Q53 (and (not Q31) (not Q35) (not Q42) (not Q44)))
+
+-Q31 -Q53
+-Q35 -Q53
+-Q42 -Q53
+-Q44 -Q53
+
+# (implies Q54 (and (not Q21) (not Q32) (not Q43) (not Q45)))
+
+-Q21 -Q54
+-Q32 -Q54
+-Q43 -Q54
+-Q45 -Q54
+
+# (implies Q55 (and (not Q11) (not Q22) (not Q33) (not Q44)))
+
+-Q11 -Q55
+-Q22 -Q55
+-Q33 -Q55
+-Q44 -Q55
+
+# 
+# 
+# # ~    ~    AT LEAST 1 QUEEN IN EACH COLUMN    ~    ~
+# (or Q11 Q12 Q13 Q14 Q15)
+
+Q11 Q12 Q13 Q14 Q15
+
+# (or Q21 Q22 Q23 Q24 Q25)
+
+Q21 Q22 Q23 Q24 Q25
+
+# (or Q31 Q32 Q33 Q34 Q35)
+
+Q31 Q32 Q33 Q34 Q35
+
+# (or Q41 Q42 Q43 Q44 Q45)
+
+Q41 Q42 Q43 Q44 Q45
+
+# (or Q51 Q52 Q53 Q54 Q55)
+
+Q51 Q52 Q53 Q54 Q55
+
+# 
+# 
+# # ~    ~    AT LEAST 1 QUEEN IN EACH ROW    ~    ~
+# (or Q11 Q21 Q31 Q41 Q51)
+
+Q11 Q21 Q31 Q41 Q51
+
+# (or Q12 Q22 Q32 Q42 Q52)
+
+Q12 Q22 Q32 Q42 Q52
+
+# (or Q13 Q23 Q33 Q43 Q53)
+
+Q13 Q23 Q33 Q43 Q53
+
+# (or Q14 Q24 Q34 Q44 Q54)
+
+Q14 Q24 Q34 Q44 Q54
+
+# (or Q15 Q25 Q35 Q45 Q55)
+
+Q15 Q25 Q35 Q45 Q55
+

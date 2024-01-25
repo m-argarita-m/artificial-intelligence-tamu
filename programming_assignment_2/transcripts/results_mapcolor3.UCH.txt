@@ -1,0 +1,161 @@
+Command:                           python3 DPLL.py mapcolor.cnf Q_Green V_Blue +UCH -t transcripts/results_mapcolor3.UCH.txt
+Script Name:                       DPLL.py
+CNF File Name:                     mapcolor.cnf
+Transcript File Path:              transcripts/results_mapcolor3.UCH.txt
+We will use Unit Clause Heuristic? True
+Given Statements for KB:
+
+.............................................................................................................................
+1.	Q_Green
+2.	V_Blue
+.............................................................................................................................
+
+**********************************************************************************************************************************************************************************************************************************************************
+model is initially:
+{'Q_Blue': 0, 'Q_Green': 0, 'Q_Red': 0, 'V_Blue': 0, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+after considering given statements, model is:
+{'Q_Blue': 0, 'Q_Green': 1, 'Q_Red': 0, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 1	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q_Red', -1)
+Assigning Q_Red = -1
+Model now looks like:
+{'Q_Blue': 0, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 2	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('Q_Blue', -1)
+Assigning Q_Blue = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 3	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('V_Green', -1)
+Assigning V_Green = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 4	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('V_Red', -1)
+Assigning V_Red = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 5	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NT_Green', -1)
+Assigning NT_Green = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 6	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('SA_Green', -1)
+Assigning SA_Green = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': -1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 7	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('SA_Blue', -1)
+Assigning SA_Blue = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 8	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('SA_Red', 1)
+Assigning SA_Red = 1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 9	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('WA_Red', -1)
+Assigning WA_Red = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 10	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NT_Red', -1)
+Assigning NT_Red = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 11	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NT_Blue', 1)
+Assigning NT_Blue = 1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 12	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('WA_Blue', -1)
+Assigning WA_Blue = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 0, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 13	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('WA_Green', 1)
+Assigning WA_Green = 1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 14	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NSW_Red', -1)
+Assigning NSW_Red = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': -1}
+
+	-	Attempt 15	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NSW_Green', -1)
+Assigning NSW_Green = -1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': -1, 'NSW_Red': -1}
+
+	-	Attempt 16	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+Unit Clause Found: ('NSW_Blue', 1)
+Assigning NSW_Blue = 1
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 1, 'NSW_Green': -1, 'NSW_Red': -1}
+
+	-	Attempt 17	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Is satisfiable: False
+
+
+Total DPLL Calls: 17
+Used UCH? True
+
+  -  MODEL WAS UNSATISFIABLE  -  
+
+
+________________________________________________________________________________

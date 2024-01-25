@@ -1,0 +1,174 @@
+# # ~    ~    NO MORE THAN 1 QUEEN IN EACH COLUMN    ~    ~
+# (implies Q11 (and (not Q12) (not Q13)))
+
+-Q12 -Q11
+-Q13 -Q11
+
+# (implies Q12 (and (not Q11) (not Q13)))
+
+-Q11 -Q12
+-Q13 -Q12
+
+# (implies Q13 (and (not Q11) (not Q12)))
+
+-Q11 -Q13
+-Q12 -Q13
+
+# (implies Q21 (and (not Q22) (not Q23)))
+
+-Q22 -Q21
+-Q23 -Q21
+
+# (implies Q22 (and (not Q21) (not Q23)))
+
+-Q21 -Q22
+-Q23 -Q22
+
+# (implies Q23 (and (not Q21) (not Q22)))
+
+-Q21 -Q23
+-Q22 -Q23
+
+# (implies Q31 (and (not Q32) (not Q33)))
+
+-Q32 -Q31
+-Q33 -Q31
+
+# (implies Q32 (and (not Q31) (not Q33)))
+
+-Q31 -Q32
+-Q33 -Q32
+
+# (implies Q33 (and (not Q31) (not Q32)))
+
+-Q31 -Q33
+-Q32 -Q33
+
+# 
+# 
+# # ~    ~    NO MORE THAN 1 QUEEN IN EACH ROW    ~    ~
+# (implies Q11 (and (not Q21) (not Q31)))
+
+-Q21 -Q11
+-Q31 -Q11
+
+# (implies Q21 (and (not Q11) (not Q31)))
+
+-Q11 -Q21
+-Q31 -Q21
+
+# (implies Q31 (and (not Q11) (not Q21)))
+
+-Q11 -Q31
+-Q21 -Q31
+
+# (implies Q12 (and (not Q22) (not Q32)))
+
+-Q22 -Q12
+-Q32 -Q12
+
+# (implies Q22 (and (not Q12) (not Q32)))
+
+-Q12 -Q22
+-Q32 -Q22
+
+# (implies Q32 (and (not Q12) (not Q22)))
+
+-Q12 -Q32
+-Q22 -Q32
+
+# (implies Q13 (and (not Q23) (not Q33)))
+
+-Q23 -Q13
+-Q33 -Q13
+
+# (implies Q23 (and (not Q13) (not Q33)))
+
+-Q13 -Q23
+-Q33 -Q23
+
+# (implies Q33 (and (not Q13) (not Q23)))
+
+-Q13 -Q33
+-Q23 -Q33
+
+# 
+# 
+# # ~    ~    NO QUEENS IN SAME DIAGONAL    ~    ~
+# (implies Q11 (and (not Q22) (not Q33)))
+
+-Q22 -Q11
+-Q33 -Q11
+
+# (implies Q12 (and (not Q21) (not Q23)))
+
+-Q21 -Q12
+-Q23 -Q12
+
+# (implies Q13 (and (not Q22) (not Q31)))
+
+-Q22 -Q13
+-Q31 -Q13
+
+# (implies Q21 (and (not Q12) (not Q32)))
+
+-Q12 -Q21
+-Q32 -Q21
+
+# (implies Q22 (and (not Q11) (not Q13) (not Q31) (not Q33)))
+
+-Q11 -Q22
+-Q13 -Q22
+-Q31 -Q22
+-Q33 -Q22
+
+# (implies Q23 (and (not Q12) (not Q32)))
+
+-Q12 -Q23
+-Q32 -Q23
+
+# (implies Q31 (and (not Q13) (not Q22)))
+
+-Q13 -Q31
+-Q22 -Q31
+
+# (implies Q32 (and (not Q21) (not Q23)))
+
+-Q21 -Q32
+-Q23 -Q32
+
+# (implies Q33 (and (not Q11) (not Q22)))
+
+-Q11 -Q33
+-Q22 -Q33
+
+# 
+# 
+# # ~    ~    AT LEAST 1 QUEEN IN EACH COLUMN    ~    ~
+# (or Q11 Q12 Q13)
+
+Q11 Q12 Q13
+
+# (or Q21 Q22 Q23)
+
+Q21 Q22 Q23
+
+# (or Q31 Q32 Q33)
+
+Q31 Q32 Q33
+
+# 
+# 
+# # ~    ~    AT LEAST 1 QUEEN IN EACH ROW    ~    ~
+# (or Q11 Q21 Q31)
+
+Q11 Q21 Q31
+
+# (or Q12 Q22 Q32)
+
+Q12 Q22 Q32
+
+# (or Q13 Q23 Q33)
+
+Q13 Q23 Q33
+

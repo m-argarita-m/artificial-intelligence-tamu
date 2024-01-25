@@ -1,0 +1,142 @@
+Script Name: blocksworld.py
+Test Case: probB05
+Selected heuristic was: H6
+max_iters will be: 1000000
+file_path is: ./probs/probB05.bwp
+
+---initial state---
+AE
+CF
+D
+GHIJ
+B
+---goal state---
+AEG
+CFI
+DJB
+
+H
+********************************************************************************************************************************************************************************************************
+Iteration 1: depth = 0, pathcost = 0, score = 11, heuristic = 11, children = 20, q_size = 0
+Iteration 2: depth = 1, pathcost = 1, score = 9, heuristic = 8, children = 20, q_size = 19
+Iteration 3: depth = 2, pathcost = 2, score = 7, heuristic = 5, children = 20, q_size = 37
+Iteration 4: depth = 3, pathcost = 3, score = 7, heuristic = 4, children = 20, q_size = 55
+Iteration 5: depth = 3, pathcost = 3, score = 7, heuristic = 4, children = 20, q_size = 73
+Iteration 6: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 20, q_size = 90
+Iteration 7: depth = 2, pathcost = 2, score = 8, heuristic = 6, children = 20, q_size = 108
+Iteration 8: depth = 3, pathcost = 3, score = 7, heuristic = 4, children = 20, q_size = 125
+Iteration 9: depth = 4, pathcost = 4, score = 7, heuristic = 3, children = 20, q_size = 142
+Iteration 10: depth = 4, pathcost = 4, score = 7, heuristic = 3, children = 20, q_size = 160
+Iteration 11: depth = 4, pathcost = 4, score = 7, heuristic = 3, children = 20, q_size = 176
+Iteration 12: depth = 3, pathcost = 3, score = 9, heuristic = 6, children = 20, q_size = 192
+Iteration 13: depth = 3, pathcost = 3, score = 9, heuristic = 6, children = 16, q_size = 209
+Iteration 14: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 20, q_size = 223
+Iteration 15: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 20, q_size = 239
+Iteration 16: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 16, q_size = 254
+Iteration 17: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 16, q_size = 268
+Iteration 18: depth = 4, pathcost = 4, score = 7, heuristic = 3, children = 20, q_size = 281
+Iteration 19: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 20, q_size = 296
+Iteration 20: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 311
+Iteration 21: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 20, q_size = 325
+Iteration 22: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 342
+Iteration 23: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 355
+Iteration 24: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 369
+Iteration 25: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 20, q_size = 382
+Iteration 26: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 20, q_size = 398
+Iteration 27: depth = 3, pathcost = 3, score = 8, heuristic = 5, children = 20, q_size = 414
+Iteration 28: depth = 4, pathcost = 4, score = 9, heuristic = 5, children = 20, q_size = 432
+Iteration 29: depth = 4, pathcost = 4, score = 9, heuristic = 5, children = 20, q_size = 450
+Iteration 30: depth = 4, pathcost = 4, score = 9, heuristic = 5, children = 20, q_size = 467
+Iteration 31: depth = 4, pathcost = 4, score = 9, heuristic = 5, children = 20, q_size = 485
+Iteration 32: depth = 5, pathcost = 5, score = 8, heuristic = 3, children = 20, q_size = 502
+Iteration 33: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 20, q_size = 517
+Iteration 34: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 531
+Iteration 35: depth = 5, pathcost = 5, score = 8, heuristic = 3, children = 20, q_size = 545
+Iteration 36: depth = 4, pathcost = 4, score = 8, heuristic = 4, children = 16, q_size = 560
+Iteration 37: depth = 4, pathcost = 4, score = 7, heuristic = 3, children = 16, q_size = 572
+Iteration 38: depth = 5, pathcost = 5, score = 7, heuristic = 2, children = 16, q_size = 584
+Iteration 39: depth = 5, pathcost = 5, score = 7, heuristic = 2, children = 16, q_size = 597
+Iteration 40: depth = 5, pathcost = 5, score = 7, heuristic = 2, children = 16, q_size = 609
+Iteration 41: depth = 5, pathcost = 5, score = 6, heuristic = 1, children = 20, q_size = 621
+Iteration 42: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 636
+Iteration 43: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 654
+Iteration 44: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 671
+Iteration 45: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 687
+Iteration 46: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 705
+Iteration 47: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 722
+Iteration 48: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 738
+Iteration 49: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 755
+Iteration 50: depth = 6, pathcost = 6, score = 8, heuristic = 2, children = 20, q_size = 771
+Iteration 51: depth = 6, pathcost = 6, score = 6, heuristic = 0, children = 16, q_size = 787
+
+---goal state---
+AEG
+CFI
+DJB
+
+H
+>>>>>>>>>>>>>>>>>>>>
+---initial state---
+AE
+CF
+D
+GHIJ
+B
+>>>>>>>>>>>>>>>>>>>>
+Move 1:
+path_cost = 1, heuristic = 8, f(n) =  g(n) + h(n) = 9
+Moved block J from stack 4 to stack 1, resulting in...
+AEJ
+CF
+D
+GHI
+B
+>>>>>>>>>>>>>>>>>>>>
+Move 2:
+path_cost = 2, heuristic = 5, f(n) =  g(n) + h(n) = 7
+Moved block I from stack 4 to stack 2, resulting in...
+AEJ
+CFI
+D
+GH
+B
+>>>>>>>>>>>>>>>>>>>>
+Move 3:
+path_cost = 3, heuristic = 4, f(n) =  g(n) + h(n) = 7
+Moved block J from stack 1 to stack 3, resulting in...
+AE
+CFI
+DJ
+GH
+B
+>>>>>>>>>>>>>>>>>>>>
+Move 4:
+path_cost = 4, heuristic = 3, f(n) =  g(n) + h(n) = 7
+Moved block B from stack 5 to stack 3, resulting in...
+AE
+CFI
+DJB
+GH
+
+>>>>>>>>>>>>>>>>>>>>
+Move 5:
+path_cost = 5, heuristic = 1, f(n) =  g(n) + h(n) = 6
+Moved block H from stack 4 to stack 5, resulting in...
+AE
+CFI
+DJB
+G
+H
+>>>>>>>>>>>>>>>>>>>>
+Move 6:
+path_cost = 6, heuristic = 0, f(n) =  g(n) + h(n) = 6
+Moved block G from stack 4 to stack 1, resulting in...
+AEG
+CFI
+DJB
+
+H
+>>>>>>>>>>>>>>>>>>>>
+
+Success! Using H6, found solution with cost = 6 on iteration 51. Max queue size was 787.
+Solution found for test case: probB05

@@ -1,0 +1,1758 @@
+# # Constraints
+# # A region must be assigned exactly one color
+# (or (and Q_Red (not Q_Green) (not Q_Blue)) (and Q_Green (not Q_Red) (not Q_Blue)) (and Q_Blue (not Q_Green) (not Q_Red)))
+
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue Q_Green Q_Red
+-Q_Green Q_Green Q_Red
+-Q_Red Q_Green Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Red Q_Red
+-Q_Green -Q_Red Q_Red
+-Q_Red -Q_Red Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue -Q_Blue Q_Red
+-Q_Green -Q_Blue Q_Red
+-Q_Red -Q_Blue Q_Red
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue Q_Green -Q_Green
+-Q_Green Q_Green -Q_Green
+-Q_Red Q_Green -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Red -Q_Green
+-Q_Green -Q_Red -Q_Green
+-Q_Red -Q_Red -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue -Q_Blue -Q_Green
+-Q_Green -Q_Blue -Q_Green
+-Q_Red -Q_Blue -Q_Green
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue Q_Green -Q_Blue
+-Q_Green Q_Green -Q_Blue
+-Q_Red Q_Green -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Red -Q_Blue
+-Q_Green -Q_Red -Q_Blue
+-Q_Red -Q_Red -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+Q_Blue -Q_Blue -Q_Blue
+-Q_Green -Q_Blue -Q_Blue
+-Q_Red -Q_Blue -Q_Blue
+
+# (or (and V_Red (not V_Green) (not V_Blue)) (and V_Green (not V_Red) (not V_Blue)) (and V_Blue (not V_Green) (not V_Red)))
+
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue V_Green V_Red
+-V_Green V_Green V_Red
+-V_Red V_Green V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Red V_Red
+-V_Green -V_Red V_Red
+-V_Red -V_Red V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue -V_Blue V_Red
+-V_Green -V_Blue V_Red
+-V_Red -V_Blue V_Red
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue V_Green -V_Green
+-V_Green V_Green -V_Green
+-V_Red V_Green -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Red -V_Green
+-V_Green -V_Red -V_Green
+-V_Red -V_Red -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue -V_Blue -V_Green
+-V_Green -V_Blue -V_Green
+-V_Red -V_Blue -V_Green
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue V_Green -V_Blue
+-V_Green V_Green -V_Blue
+-V_Red V_Green -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Red -V_Blue
+-V_Green -V_Red -V_Blue
+-V_Red -V_Red -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+V_Blue -V_Blue -V_Blue
+-V_Green -V_Blue -V_Blue
+-V_Red -V_Blue -V_Blue
+
+# (or (and T_Red (not T_Green) (not T_Blue)) (and T_Green (not T_Red) (not T_Blue)) (and T_Blue (not T_Green) (not T_Red)))
+
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue T_Green T_Red
+-T_Green T_Green T_Red
+-T_Red T_Green T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Red T_Red
+-T_Green -T_Red T_Red
+-T_Red -T_Red T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue -T_Blue T_Red
+-T_Green -T_Blue T_Red
+-T_Red -T_Blue T_Red
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue T_Green -T_Green
+-T_Green T_Green -T_Green
+-T_Red T_Green -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Red -T_Green
+-T_Green -T_Red -T_Green
+-T_Red -T_Red -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue -T_Blue -T_Green
+-T_Green -T_Blue -T_Green
+-T_Red -T_Blue -T_Green
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue T_Green -T_Blue
+-T_Green T_Green -T_Blue
+-T_Red T_Green -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Red -T_Blue
+-T_Green -T_Red -T_Blue
+-T_Red -T_Red -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+T_Blue -T_Blue -T_Blue
+-T_Green -T_Blue -T_Blue
+-T_Red -T_Blue -T_Blue
+
+# (or (and SA_Red (not SA_Green) (not SA_Blue)) (and SA_Green (not SA_Red) (not SA_Blue)) (and SA_Blue (not SA_Green) (not SA_Red)))
+
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue SA_Green SA_Red
+-SA_Green SA_Green SA_Red
+-SA_Red SA_Green SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Red SA_Red
+-SA_Green -SA_Red SA_Red
+-SA_Red -SA_Red SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue -SA_Blue SA_Red
+-SA_Green -SA_Blue SA_Red
+-SA_Red -SA_Blue SA_Red
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue SA_Green -SA_Green
+-SA_Green SA_Green -SA_Green
+-SA_Red SA_Green -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Red -SA_Green
+-SA_Green -SA_Red -SA_Green
+-SA_Red -SA_Red -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue -SA_Blue -SA_Green
+-SA_Green -SA_Blue -SA_Green
+-SA_Red -SA_Blue -SA_Green
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue SA_Green -SA_Blue
+-SA_Green SA_Green -SA_Blue
+-SA_Red SA_Green -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Red -SA_Blue
+-SA_Green -SA_Red -SA_Blue
+-SA_Red -SA_Red -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+SA_Blue -SA_Blue -SA_Blue
+-SA_Green -SA_Blue -SA_Blue
+-SA_Red -SA_Blue -SA_Blue
+
+# (or (and WA_Red (not WA_Green) (not WA_Blue)) (and WA_Green (not WA_Red) (not WA_Blue)) (and WA_Blue (not WA_Green) (not WA_Red)))
+
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue WA_Green WA_Red
+-WA_Green WA_Green WA_Red
+-WA_Red WA_Green WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Red WA_Red
+-WA_Green -WA_Red WA_Red
+-WA_Red -WA_Red WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue -WA_Blue WA_Red
+-WA_Green -WA_Blue WA_Red
+-WA_Red -WA_Blue WA_Red
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue WA_Green -WA_Green
+-WA_Green WA_Green -WA_Green
+-WA_Red WA_Green -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Red -WA_Green
+-WA_Green -WA_Red -WA_Green
+-WA_Red -WA_Red -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue -WA_Blue -WA_Green
+-WA_Green -WA_Blue -WA_Green
+-WA_Red -WA_Blue -WA_Green
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue WA_Green -WA_Blue
+-WA_Green WA_Green -WA_Blue
+-WA_Red WA_Green -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Red -WA_Blue
+-WA_Green -WA_Red -WA_Blue
+-WA_Red -WA_Red -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+WA_Blue -WA_Blue -WA_Blue
+-WA_Green -WA_Blue -WA_Blue
+-WA_Red -WA_Blue -WA_Blue
+
+# (or (and NT_Red (not NT_Green) (not NT_Blue)) (and NT_Green (not NT_Red) (not NT_Blue)) (and NT_Blue (not NT_Green) (not NT_Red)))
+
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue NT_Green NT_Red
+-NT_Green NT_Green NT_Red
+-NT_Red NT_Green NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Red NT_Red
+-NT_Green -NT_Red NT_Red
+-NT_Red -NT_Red NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue -NT_Blue NT_Red
+-NT_Green -NT_Blue NT_Red
+-NT_Red -NT_Blue NT_Red
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue NT_Green -NT_Green
+-NT_Green NT_Green -NT_Green
+-NT_Red NT_Green -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Red -NT_Green
+-NT_Green -NT_Red -NT_Green
+-NT_Red -NT_Red -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue -NT_Blue -NT_Green
+-NT_Green -NT_Blue -NT_Green
+-NT_Red -NT_Blue -NT_Green
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue NT_Green -NT_Blue
+-NT_Green NT_Green -NT_Blue
+-NT_Red NT_Green -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Red -NT_Blue
+-NT_Green -NT_Red -NT_Blue
+-NT_Red -NT_Red -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+NT_Blue -NT_Blue -NT_Blue
+-NT_Green -NT_Blue -NT_Blue
+-NT_Red -NT_Blue -NT_Blue
+
+# (or (and NSW_Red (not NSW_Green) (not NSW_Blue)) (and NSW_Green (not NSW_Red) (not NSW_Blue)) (and NSW_Blue (not NSW_Green) (not NSW_Red)))
+
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue NSW_Green NSW_Red
+-NSW_Green NSW_Green NSW_Red
+-NSW_Red NSW_Green NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Red NSW_Red
+-NSW_Green -NSW_Red NSW_Red
+-NSW_Red -NSW_Red NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue -NSW_Blue NSW_Red
+-NSW_Green -NSW_Blue NSW_Red
+-NSW_Red -NSW_Blue NSW_Red
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue NSW_Green -NSW_Green
+-NSW_Green NSW_Green -NSW_Green
+-NSW_Red NSW_Green -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Red -NSW_Green
+-NSW_Green -NSW_Red -NSW_Green
+-NSW_Red -NSW_Red -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue -NSW_Blue -NSW_Green
+-NSW_Green -NSW_Blue -NSW_Green
+-NSW_Red -NSW_Blue -NSW_Green
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue NSW_Green -NSW_Blue
+-NSW_Green NSW_Green -NSW_Blue
+-NSW_Red NSW_Green -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Red -NSW_Blue
+-NSW_Green -NSW_Red -NSW_Blue
+-NSW_Red -NSW_Red -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+NSW_Blue -NSW_Blue -NSW_Blue
+-NSW_Green -NSW_Blue -NSW_Blue
+-NSW_Red -NSW_Blue -NSW_Blue
+
+# 
+# # No two adjacent regions can have the same color
+# (implies WA_Red (not SA_Red))
+
+-WA_Red -SA_Red
+
+# (implies WA_Red (not NT_Red))
+
+-WA_Red -NT_Red
+
+# (implies WA_Green (not SA_Green))
+
+-WA_Green -SA_Green
+
+# (implies WA_Green (not NT_Green))
+
+-WA_Green -NT_Green
+
+# (implies WA_Blue (not SA_Blue))
+
+-WA_Blue -SA_Blue
+
+# (implies WA_Blue (not NT_Blue))
+
+-WA_Blue -NT_Blue
+
+# 
+# (implies NT_Red (not Q_Red))
+
+-NT_Red -Q_Red
+
+# (implies NT_Red (not SA_Red))
+
+-NT_Red -SA_Red
+
+# (implies NT_Red (not WA_Red))
+
+-NT_Red -WA_Red
+
+# (implies NT_Green (not Q_Green))
+
+-NT_Green -Q_Green
+
+# (implies NT_Green (not SA_Green))
+
+-NT_Green -SA_Green
+
+# (implies NT_Green (not WA_Green))
+
+-NT_Green -WA_Green
+
+# (implies NT_Blue (not Q_Blue))
+
+-NT_Blue -Q_Blue
+
+# (implies NT_Blue (not SA_Blue))
+
+-NT_Blue -SA_Blue
+
+# (implies NT_Blue (not WA_Blue))
+
+-NT_Blue -WA_Blue
+
+# 
+# (implies SA_Red (not NSW_Red))
+
+-SA_Red -NSW_Red
+
+# (implies SA_Red (not V_Red))
+
+-SA_Red -V_Red
+
+# (implies SA_Red (not Q_Red))
+
+-SA_Red -Q_Red
+
+# (implies SA_Red (not WA_Red))
+
+-SA_Red -WA_Red
+
+# (implies SA_Red (not NT_Red))
+
+-SA_Red -NT_Red
+
+# (implies SA_Green (not NSW_Green))
+
+-SA_Green -NSW_Green
+
+# (implies SA_Green (not V_Green))
+
+-SA_Green -V_Green
+
+# (implies SA_Green (not Q_Green))
+
+-SA_Green -Q_Green
+
+# (implies SA_Green (not WA_Green))
+
+-SA_Green -WA_Green
+
+# (implies SA_Green (not NT_Green))
+
+-SA_Green -NT_Green
+
+# (implies SA_Blue (not NSW_Blue))
+
+-SA_Blue -NSW_Blue
+
+# (implies SA_Blue (not V_Blue))
+
+-SA_Blue -V_Blue
+
+# (implies SA_Blue (not Q_Blue))
+
+-SA_Blue -Q_Blue
+
+# (implies SA_Blue (not WA_Blue))
+
+-SA_Blue -WA_Blue
+
+# (implies SA_Blue (not NT_Blue))
+
+-SA_Blue -NT_Blue
+
+# 
+# (implies NSW_Red (not V_Red))
+
+-NSW_Red -V_Red
+
+# (implies NSW_Red (not SA_Red))
+
+-NSW_Red -SA_Red
+
+# (implies NSW_Red (not Q_Red))
+
+-NSW_Red -Q_Red
+
+# (implies NSW_Green (not V_Green))
+
+-NSW_Green -V_Green
+
+# (implies NSW_Green (not SA_Green))
+
+-NSW_Green -SA_Green
+
+# (implies NSW_Green (not Q_Green))
+
+-NSW_Green -Q_Green
+
+# (implies NSW_Blue (not V_Blue))
+
+-NSW_Blue -V_Blue
+
+# (implies NSW_Blue (not SA_Blue))
+
+-NSW_Blue -SA_Blue
+
+# (implies NSW_Blue (not Q_Blue))
+
+-NSW_Blue -Q_Blue
+
+# 
+# (implies Q_Red (not NSW_Red))
+
+-Q_Red -NSW_Red
+
+# (implies Q_Red (not SA_Red))
+
+-Q_Red -SA_Red
+
+# (implies Q_Red (not NT_Red))
+
+-Q_Red -NT_Red
+
+# (implies Q_Green (not NSW_Green))
+
+-Q_Green -NSW_Green
+
+# (implies Q_Green (not SA_Green))
+
+-Q_Green -SA_Green
+
+# (implies Q_Green (not NT_Green))
+
+-Q_Green -NT_Green
+
+# (implies Q_Blue (not NSW_Blue))
+
+-Q_Blue -NSW_Blue
+
+# (implies Q_Blue (not SA_Blue))
+
+-Q_Blue -SA_Blue
+
+# (implies Q_Blue (not NT_Blue))
+
+-Q_Blue -NT_Blue
+
+# 
+# (implies V_Red (not NSW_Red))
+
+-V_Red -NSW_Red
+
+# (implies V_Red (not SA_Red))
+
+-V_Red -SA_Red
+
+# (implies V_Green (not NSW_Green))
+
+-V_Green -NSW_Green
+
+# (implies V_Green (not SA_Green))
+
+-V_Green -SA_Green
+
+# (implies V_Blue (not NSW_Blue))
+
+-V_Blue -NSW_Blue
+
+# (implies V_Blue (not SA_Blue))
+
+-V_Blue -SA_Blue
+

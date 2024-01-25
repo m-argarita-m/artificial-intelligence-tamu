@@ -1,0 +1,1433 @@
+Command:                           python3 DPLL.py mapcolor.cnf Q_Green V_Blue -t transcripts/results_mapcolor3.txt
+Script Name:                       DPLL.py
+CNF File Name:                     mapcolor.cnf
+Transcript File Path:              transcripts/results_mapcolor3.txt
+We will use Unit Clause Heuristic? False
+Given Statements for KB:
+
+.............................................................................................................................
+1.	Q_Green
+2.	V_Blue
+.............................................................................................................................
+
+**********************************************************************************************************************************************************************************************************************************************************
+model is initially:
+{'Q_Blue': 0, 'Q_Green': 0, 'Q_Red': 0, 'V_Blue': 0, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+after considering given statements, model is:
+{'Q_Blue': 0, 'Q_Green': 1, 'Q_Red': 0, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 1	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q_Blue = True
+
+Model now looks like:
+{'Q_Blue': 1, 'Q_Green': 1, 'Q_Red': 0, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 2	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q_Blue = True
+
+Trying Q_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': 0, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 3	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying Q_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': 1, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 4	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from Q_Red = True
+
+Trying Q_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': 0, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 5	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying V_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': 1, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 6	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from V_Green = True
+
+Trying V_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': 0, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 7	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying V_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': 1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 8	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from V_Red = True
+
+Trying V_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 0, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 9	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 10	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': 1, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 11	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Green = True
+
+Trying T_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 12	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 13	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Red = True
+
+Trying T_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 14	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': 1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 15	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Blue = True
+
+Trying SA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 16	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': 1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 17	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Green = True
+
+Trying SA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 18	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 19	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 20	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 21	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 22	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 23	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 24	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 25	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 26	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 27	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 28	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 29	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 30	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Blue = True
+
+Trying WA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 31	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 32	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 33	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 34	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 35	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 36	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 37	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 38	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 39	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 40	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Blue = True
+
+Trying NSW_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 41	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 1, 'NSW_Red': 0}
+
+	-	Attempt 42	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Green = True
+
+Trying NSW_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 0}
+
+	-	Attempt 43	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 1}
+
+	-	Attempt 44	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Red = True
+
+Trying NSW_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': -1}
+
+	-	Attempt 45	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 46	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 47	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 48	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 49	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 50	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 51	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 52	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 53	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Red = True
+
+Trying SA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': 1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': -1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 54	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Blue = True
+
+Trying T_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 0, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 55	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 56	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': 1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 57	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Red = True
+
+Trying T_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 58	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': 1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 59	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Blue = True
+
+Trying SA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 60	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': 1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 61	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Green = True
+
+Trying SA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 62	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 63	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 64	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 65	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 66	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 67	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 68	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 69	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 70	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 71	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 72	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 73	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 74	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Blue = True
+
+Trying WA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 75	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 76	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 77	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 78	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 79	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 80	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 81	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 82	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 83	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 84	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Blue = True
+
+Trying NSW_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 85	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 1, 'NSW_Red': 0}
+
+	-	Attempt 86	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Green = True
+
+Trying NSW_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 0}
+
+	-	Attempt 87	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 1}
+
+	-	Attempt 88	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Red = True
+
+Trying NSW_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': -1}
+
+	-	Attempt 89	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 90	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 91	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 92	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 93	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 94	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 95	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 96	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 97	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Red = True
+
+Trying SA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': 1, 'T_Red': -1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': -1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 98	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Green = True
+
+Trying T_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 0, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 99	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying T_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 100	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': 1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 101	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Blue = True
+
+Trying SA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 102	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': 1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 103	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Green = True
+
+Trying SA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 104	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying SA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 105	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 106	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 107	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 108	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 109	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 110	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 111	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 112	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 113	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 114	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 115	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': 1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 116	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Blue = True
+
+Trying WA_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 117	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 118	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 119	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 120	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 121	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 122	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 123	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 124	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 125	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Blue = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 126	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Blue = True
+
+Trying NSW_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 127	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': 1, 'NSW_Red': 0}
+
+	-	Attempt 128	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Green = True
+
+Trying NSW_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 0}
+
+	-	Attempt 129	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NSW_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': 1}
+
+	-	Attempt 130	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NSW_Red = True
+
+Trying NSW_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': 1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': -1, 'NSW_Green': -1, 'NSW_Red': -1}
+
+	-	Attempt 131	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Blue = True
+
+Trying NT_Blue = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 132	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Green = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': 1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 133	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Green = True
+
+Trying NT_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 134	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying NT_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': 1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 135	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from NT_Red = True
+
+Trying NT_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': 1, 'WA_Red': -1, 'NT_Blue': -1, 'NT_Green': -1, 'NT_Red': -1, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 136	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Green = True
+
+Trying WA_Green = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 137	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned False for this model - Did NOT find Unsatisfiable Clause :)
+
+Trying WA_Red = True
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': 1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 138	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from WA_Red = True
+
+Trying WA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': 1, 'WA_Blue': -1, 'WA_Green': -1, 'WA_Red': -1, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 139	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from SA_Red = True
+
+Trying SA_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': 1, 'SA_Blue': -1, 'SA_Green': -1, 'SA_Red': -1, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 140	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Backtracking from T_Red = True
+
+Trying T_Red = False
+
+Model now looks like:
+{'Q_Blue': -1, 'Q_Green': 1, 'Q_Red': -1, 'V_Blue': 1, 'V_Green': -1, 'V_Red': -1, 'T_Blue': -1, 'T_Green': -1, 'T_Red': -1, 'SA_Blue': 0, 'SA_Green': 0, 'SA_Red': 0, 'WA_Blue': 0, 'WA_Green': 0, 'WA_Red': 0, 'NT_Blue': 0, 'NT_Green': 0, 'NT_Red': 0, 'NSW_Blue': 0, 'NSW_Green': 0, 'NSW_Red': 0}
+
+	-	Attempt 141	-	
+All Clauses Satisfied returned False for this model - Found Unsatisfied Clause :(
+Any Clause Unsatisfiable returned True for this model - Found Unsatisfiable Clause :(
+
+Is satisfiable: False
+
+
+Total DPLL Calls: 141
+Used UCH? False
+
+  -  MODEL WAS UNSATISFIABLE  -  
+
+
+________________________________________________________________________________
